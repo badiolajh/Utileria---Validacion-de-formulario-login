@@ -69,6 +69,10 @@ function calcularEdad() {
   //Calculo de edad del usuario
   let edad = YearActual - YearUS;
 
+  if (Vedad === "") {
+    alert("Debes ingresar tu fecha de nacimiento");
+    return false;
+  }
   //Verifica que el mes actual sea menor al mes ingresado
   if (MonthActual < MonthUS) {
     edad--;
