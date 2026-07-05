@@ -108,4 +108,4 @@ El sistema determina automáticamente si el usuario es mayor o menor de edad.
 
 Cuando todas las validaciones son correctas, el sistema informa que el usuario ha ingresado exitosamente.
 
-![Ingreso exitoso](img/Ingreso exitoso al sistema.png)
+![Ingreso exitoso](img/Ingresoexitosoalsistema.png)
