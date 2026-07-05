@@ -1,0 +1,105 @@
+/* Página */
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+}
+
+/* Contenedor principal */
+.contenedor-formulario {
+    max-width: 550px;
+    margin: auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+h1 {
+    text-align: center;
+    color: #2d3436;
+    margin-bottom: 10px;
+}
+
+/* Subtítulos */
+.subtitulo {
+    text-align: center;
+    color: #636e72;
+    margin-bottom: 15px;
+}
+
+/* Formularios */
+form {
+    margin-bottom: 18px;
+}
+
+/* Etiquetas */
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #2d3436;
+}
+
+/* Texto opcional */
+span {
+    color: #636e72;
+    font-size: 0.85em;
+    font-weight: normal;
+}
+
+/* Entradas */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+/* Cuando el usuario selecciona un campo */
+input:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 8px rgba(108, 92, 231, 0.3);
+    outline: none;
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #b2bec3;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #6c5ce7;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover */
+button:hover {
+    background: #5a4bd1;
+    transform: translateY(-2px);
+}
+
+/* Click */
+button:active {
+    transform: scale(0.98);
+}
+
+/* Espaciado entre bloques */
+.grupo-doble {
+    margin-top: 15px;
+}
